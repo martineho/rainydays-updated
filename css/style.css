@@ -238,6 +238,22 @@ h5 {
   padding-top: 5%;
   font-size: 14px;
 }
+
+.help-tag {
+  position: fixed;
+  right: -10%;
+  top: 80vh;
+  background-color: black;
+  padding: 20px 50px;
+  color: white;
+  border-radius: 10px 0px 0px 10px;
+  font-weight: 600;
+}
+.help-tag:hover {
+  right: 0;
+  padding: 20px;
+  transition: 0.3s ease;
+}
 .form-error {
   display: none;
   color: rgb(255, 63, 49);
