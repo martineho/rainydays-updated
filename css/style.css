@@ -116,20 +116,9 @@ a.nav-link:hover {
   margin: 0;
   font-size: 3.5rem;
   font-weight: 800;
-  color: black;
+  color: #fafbf6;
   padding-bottom: 50px;
 }
-.herotop span {
-  color: white;
-}
-.herotop p {
-  font-size: 1.5rem;
-  color: white;
-  padding: 15px 1px;
-  margin-bottom: 20px;
-  font-weight: 300;
-}
-
 .cta {
   color: #222222;
   font-size: 1.3rem;
@@ -138,7 +127,7 @@ a.nav-link:hover {
   border-radius: 50px;
   text-decoration: none;
   font-weight: 700;
-  background-color: white;
+  background-color: #fafbf6;
 }
 .cta:hover {
   background-color: rgba(255, 255, 255, 0.562);
