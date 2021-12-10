@@ -51,13 +51,9 @@ a.nav-link {
 }
 a.nav-link.active {
   background-color: #edf2e230;
-  color: #222222;
 }
 a.nav-link:hover {
-  color: #222222;
-  background-color: #fe4e5b20;
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  background-color: #edf2e230;
   transition: 0.2s ease;
 }
 
@@ -75,6 +71,19 @@ a.nav-link:hover {
   gap: 20px;
 }
 
+.nav-icons {
+  display: flex;
+  gap: 15px;
+}
+.nav-icons a {
+  padding: 3px 5px;
+  border-radius: 50px;
+}
+.nav-icons a:hover {
+  background-color: #edf2e230;
+  scale: 1.15;
+  transition: 0.3s ease;
+}
 .hamburger {
   display: none;
   cursor: pointer;
@@ -100,16 +109,16 @@ a.nav-link:hover {
   background-size: cover;
   background-position: 50% 25%;
   height: 100vh;
-  padding: 0 10%;
+  padding: 20% 10%;
   margin-top: -120px;
+  text-align: center;
 }
 .herotop h1 {
   margin: 0;
-  padding-top: 18vh;
   font-size: 3.5rem;
-  font-weight: 500;
-  max-width: 700px;
+  font-weight: 800;
   color: white;
+  padding-bottom: 50px;
 }
 .herotop p {
   font-size: 1.5rem;
@@ -121,16 +130,18 @@ a.nav-link:hover {
 
 .cta {
   color: #222222;
-  font-size: 1rem;
-  padding: 8px 16px;
+  font-size: 1.3rem;
+  padding: 10px 30px;
   border: none;
   border-radius: 50px;
   text-decoration: none;
-  background-color: #fe4e5b;
+  font-weight: 700;
+  background-color: white;
 }
 .cta:hover {
-  background-color: rgb(255, 109, 119);
-  transition: ease-in 0.1s;
+  background-color: rgba(255, 255, 255, 0.562);
+  scale: 1.15;
+  transition: ease-in 0.3s;
 }
 
 h2 {
