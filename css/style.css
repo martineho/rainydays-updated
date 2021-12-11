@@ -2,7 +2,7 @@
 
 * {
   font-family: "Raleway", sans-serif;
-  color: #222222;
+  color: black;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -139,6 +139,15 @@ h2 {
   font-size: 1.5rem;
   font-weight: 600;
 }
+h3 {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 20px 0;
+}
 
 .new-arrivals {
   padding: 5% 10%;
@@ -152,18 +161,32 @@ h2 {
   display: flex;
 }
 .featured-img {
-  background-color: tomato;
+  background-image: url(../assets/unsplash_lRSChvh1Mhs.jpg);
+  background-size: cover;
   width: 50%;
-  height: 50vh;
+  height: 60vh;
 }
 .featured-info {
-  background-color: wheat;
+  background-color: #ff5739;
   width: 50%;
-  height: 50vh;
+  height: 60vh;
+  padding: 8%;
+}
+.featured-info div {
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+.featured-section a {
+  background-color: #c1b3f9;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 50px;
 }
 
 footer {
-  padding: 5% 10%;
+  padding: 5% 10% 5% 10%;
   background-color: #0a0909;
 }
 h4 {
@@ -214,7 +237,7 @@ h5 {
   border-radius: 50px;
   border: none;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   display: block;
 }
 .links-list {
@@ -243,7 +266,7 @@ h5 {
   position: fixed;
   right: -10%;
   top: 80vh;
-  background-color: black;
+  background-color: #0a0909;
   padding: 20px 50px;
   color: white;
   border-radius: 10px 0px 0px 10px;
