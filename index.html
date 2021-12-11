@@ -34,9 +34,9 @@
 
 
         <div class="nav-icons">
-          <a href="#"><img alt="search icon" src="assets/ci_search.png"></a>
-          <a href="#"><img alt="user icon" src="assets/bx_bx-user.png"></a>
-          <a href="#"><img alt="shopping bag icon" src="assets/akar-icons_shopping-bag.png"></a>
+          <button class="nav-icon" id="search-btn"><img alt="search icon" src="assets/ci_search.png"></button>
+          <a class="nav-icon" href="#"><img alt="user icon" src="assets/bx_bx-user.png"></a>
+          <button class="nav-icon" href="#"><img alt="shopping bag icon" src="assets/akar-icons_shopping-bag.png"></button>
         </div>
 
       </nav>
@@ -46,9 +46,28 @@
         <span class="bar"></span>
         <span class="bar"></span>
       </div>
+
+      
+      <div class="nav-search">
+        <form>
+          <label>Search</label>
+          <input type="text" placeholder="What are you looking for?" name="search"> 
+          <button type="exit" id="exit">Submit</button>
+        </form> 
+        <div class="tags-title">Popular searches</div>
+        <div class="tags">
+          <a href="#">rain jackets</a>
+          <a href="#">poncho</a>
+          <a href="#">returns</a>
+          <a href="#">windproof</a>
+        </div>
+        <button id="closeSearch" class="close">X</button>
+      </div>
+ 
+
     </header>
 
-    <div class="help-tag">Need help?</div>
+    <a href="#" class="help-tag">Need help?</a>
 
   <main>
 
@@ -59,18 +78,8 @@
 
       <section class="new-arrivals">
         <h2>New arrivals</h2>
-        <div class="products">
-            <div class="product-img">
-              <div class="colours-tag"></div>
-            </div>
-            <div class="product-description">
-              <div class="product">
-                  <div class="title">Product title</div>
-                  <div class="price">Price</div>
-                  <div class="colour-description">Colours</div>
-              </div>
-            </div>
-        </div>
+          <div class="products-container">
+          </div>
       </section>
 
       <section class="featured-section">
@@ -82,6 +91,12 @@
           </div>
           <a href="#">Read more and apply</a>
         </div>
+      </section>
+
+      <section class="latest-news">
+        <h2>Latest news</h2>
+          <div class="posts-container">
+          </div>
       </section>
 
   </main>
@@ -103,9 +118,8 @@
       <div class="footer-section">
         <h4>Information</h4>
           <ul class="links-list">
-            <li><a href="">Contact us</a></li>
-            <li><a href="">About Rainydays</a></li>
-            <li><a href="">Stories</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">FAQ</a></li>
             <li><a href="">Privacy Policy</a></li>
             <li><a href="">Terms</a></li>
           </ul>
@@ -126,6 +140,7 @@
 
     
     <script src="scripts/navbar.js"></script>
-    <script src="js/slider.js"></script>
+    <script src="scripts/new_products.js"></script>
+    <script src="scripts/stories.js"></script>
   </body>
 </html>
