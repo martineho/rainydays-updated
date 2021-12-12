@@ -10,7 +10,7 @@ async function fetchPosts() {
 
     const posts = results;
 
-    container.innerHTML = "";
+    postsContainer.innerHTML = "";
 
     for (let i = 0; i < posts.length; i++) {
 
@@ -18,10 +18,10 @@ async function fetchPosts() {
         break;
       }
 
-      container.innerHTML +=
+      postsContainer.innerHTML +=
       `<div class="post">
             <button class="post-img">
-                <img src="${posts[i]._embedded['wp:featuredmedia'][0].source_url}">
+                <img src="">
             </button>
                 <div class="post-description">
                      <div class="date">6 colours</div>

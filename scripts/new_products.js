@@ -20,15 +20,20 @@ async function fetchProducts() {
 
       container.innerHTML +=
       `<div class="product">
+            <div class="colors">
+                                    <div id="color1" class="color"></div>
+                                        <div id="color2" class="color"></div>
+                                    <div id="color3" class="color"></div>
+                                <div id="color4" class="color"></div>
+                            </div>
           <button class="product-img">
               <img src="${products[i].images[0].src}">
-                      <div class="colours"></div>
-                  </button>
+            </button>
                   <div class="product-description">
                   <div class="product">
                       <div class="title">${products[i].name}</div>
                       <div class="price">${products[i].prices.price} NOK</div>
-                      <div class="colour-information">6 colours</div>
+                      <div class="color-information">4 colours</div>
                   </div>
               </div>
           </div>`;
