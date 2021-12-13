@@ -515,9 +515,8 @@ h5 {
 }
 .form-error {
   display: none;
-  color: rgb(255, 63, 49);
-  font-size: 0.8rem;
-  padding: 5px 2px;
+  color: rgb(189, 53, 44);
+  font-size: 0.9rem;
 }
 
 @media (max-width: 810px) {
