@@ -336,16 +336,16 @@ button.product-img {
   background-image: url(../assets/unsplash_lRSChvh1Mhs.jpg);
   background-size: cover;
   width: 50%;
-  height: 90vh;
+  height: 80vh;
 }
 .featured-info {
   background-color: #e6e2d6;
   width: 50%;
-  height: 90vh;
-  padding: 15% 8%;
+  height: 80vh;
+  padding: 12% 8%;
 }
 .featured-info div {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-weight: 500;
 }
 .featured-section a {
