@@ -14,18 +14,20 @@ h1 {
   max-width: 800px;
   margin: auto;
 }
-.about-story {
-  padding: 10% 10% 10% 10%;
+.about-herotop {
+  padding: 10%;
+  text-align: center;
 }
-.about-story p {
+.about-herotop p {
   font-size: 1.3rem;
   max-width: 800px;
-  margin: auto auto;
   font-weight: 400;
+  margin: auto;
 }
 .about-section {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 }
 .conscious-info {
   width: 100vw;

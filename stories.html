@@ -7,7 +7,7 @@
     <title>Rainydays - Our stories </title>
     <meta name="description" content="Consciously made rain jackets that make you look and feel good.">
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/about.css"/>
+    <link rel="stylesheet" href="css/news.css"/>
   </head>
 
   <body>
@@ -23,13 +23,13 @@
             <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="jackets-all.html" class="nav-link">Jackets</a>
+            <a href="shop.html" class="nav-link">Shop</a>
           </li>
           <li class="nav-item">
-            <a href="stories.html" class="nav-link">Stories</a>
+            <a href="#" class="nav-link active">Stories</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link active">About</a>
+            <a href="about.html" class="nav-link">About</a>
           </li>
         </ul>
 
@@ -72,28 +72,38 @@
 
   <main>
 
-      <section class="about-story">
-        <h1>Our story</h1>
+      <section class="news-herotop">
+        <h1>Stories</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt eiusmod tempor incididunt. 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
       </section>
 
-      <section class="about-section">
-          <div class="conscious-info">
-            <div>
-              <img alt="leaf illustration" src="assets/fluent_leaf-one-24-regular_bl.png">
-                <h2>Our clothes are consciously made.</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doa eiusmod tempor incididunt.
-                Lorem ipsum dolor sit amet, consectetur dipiscing elit, sed do eiusmod tempor incididunt sed do eiusmod tempor incididunt. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.Lorem ipsum dolor sit amet, 
-                  consectetur adipiscing elit, sed do eiusmod tempor incididunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doa eiusmod tempor incididunt.
-                  Lorem ipsum dolor sit amet, consectetur dipiscing elit, sed do eiusmod tempor incididunt sed do eiusmod tempor incididunt. consectetur dipiscing elit, sed do eiusmod tempor incididunt sed do eiusmod tempor incididunt. </p>
-           
+      <section class="latest-news">
+          <div class="posts-container">
+            <div class="post">
+              <button class="post-img" id="img1"></button>
+              <div class="post-description">
+                    <div class="date">November 5, 2020</div>
+                    <div class="title">Hunting northern lights in the far north of Norway</div>
+                </div>
             </div>
+            <div class="post">
+              <button class="post-img" id="img2"></button>
+              <div class="post-description">
+                    <div class="date">October 15, 2020</div>
+                    <div class="title">What to pack for camping in the fall</div>
+                </div>
+            </div>
+            <div class="post">
+              <button class="post-img" id="img3"></button>
+              <div class="post-description">
+                    <div class="date">October 5, 2020</div>
+                    <div class="title">The most magical views in Lofoten</div>
+                </div>
+            </div>
+          </div>
       </section>
+
 
   </main>
 
@@ -136,5 +146,6 @@
 
     
     <script src="scripts/navbar.js"></script>
+    <script src="scripts/news.js"></script>
   </body>
 </html>

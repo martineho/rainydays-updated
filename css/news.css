@@ -1,0 +1,35 @@
+body {
+  background-color: #e6eef3;
+}
+a.nav-link.active {
+  background-color: #a5a8a030;
+}
+a.nav-link:hover {
+  background-color: #a5a8a030;
+  transition: 0.2s ease;
+}
+h1 {
+  color: black;
+  padding-bottom: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+.news-herotop {
+  padding: 10%;
+  text-align: center;
+}
+.news-herotop p {
+  font-size: 1.3rem;
+  max-width: 800px;
+  font-weight: 400;
+  margin: auto;
+}
+.latest-news {
+  background-color: white;
+  padding: 5% 10%;
+}
+.post-img img {
+  width: 350px;
+  height: 220px;
+  border-radius: 10px;
+}
