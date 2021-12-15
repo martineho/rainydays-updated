@@ -331,18 +331,22 @@ button.product-img {
 .featured-section {
   display: flex;
   flex-wrap: wrap;
+  padding: 0 5%;
 }
 .featured-img {
   background-image: url(../assets/unsplash_lRSChvh1Mhs.jpg);
   background-size: cover;
+  background-position: center;
   width: 50%;
-  height: 80vh;
+  height: 70vh;
+  border-radius: 10px 0px 0px 10px;
 }
 .featured-info {
-  background-color: #e6e2d6;
+  background-color: #daff95;
   width: 50%;
-  height: 80vh;
-  padding: 12% 8%;
+  height: 70vh;
+  padding: 13% 8%;
+  border-radius: 0px 10px 10px 0px;
 }
 .featured-info div {
   margin-bottom: 40px;
