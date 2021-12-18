@@ -25,7 +25,7 @@ async function fetchProduct() {
         `<button id="closeModal" class="cta-close">Shop more ></button>
         <img alt="" src="${product.images[0].src}">
             <h4 class="title">${product.name}</h4>
-            <button id="checkout" class="cta-checkout">Checkout</button>`;
+            <a href="checkout.html" id="checkout" class="cta-checkout">Checkout</a>`;
 
     breadcrumbs.innerHTML += `
                                 <ul>
