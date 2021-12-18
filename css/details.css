@@ -153,6 +153,21 @@ h1 {
   scale: 1.05;
   transition: 0.3s ease;
 }
+.cta-close {
+  color: black;
+  font-size: 1rem;
+  border: none;
+  margin-bottom: 15px;
+  text-decoration: none;
+  font-weight: 800;
+  background-color: transparent;
+  display: block;
+  float: right;
+}
+.cta-close:hover {
+  scale: 1.05;
+  transition: 0.3s ease;
+}
 .product-images {
   display: flex;
   flex-wrap: wrap;
@@ -316,6 +331,17 @@ h2#features {
 
 .hidden-specs {
   padding: 50px 0;
+  display: none;
+}
+
+.added-signifier {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(9, 192, 106);
+  border-radius: 50px;
+  position: absolute;
+  margin-top: -2px;
+  margin-left: 14px;
   display: none;
 }
 

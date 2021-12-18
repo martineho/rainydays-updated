@@ -22,7 +22,8 @@ async function fetchProduct() {
     title.innerHTML = `Rainydays - ${product.name}`;
 
     modalContent.innerHTML += 
-        `<img alt="" src="${product.images[0].src}">
+        `<button id="closeModal" class="cta-close">Shop more ></button>
+        <img alt="" src="${product.images[0].src}">
             <h4 class="title">${product.name}</h4>
             <button id="checkout" class="cta-checkout">Checkout</button>`;
 
@@ -82,13 +83,18 @@ async function fetchProduct() {
             addBtn.style.backgroundColor = "rgb(9, 192, 106)";
         }
 
-
+        const signifier = document.querySelector(".added-signifier")
         const modal = document.querySelector(".added-to-bag-modal");
 
         addBtn.onclick = function () {
             modal.style.display = "flex";
+            signifier.style.display = "block";
         }
 
+        document.getElementById("closeModal").onclick = function () {
+            modal.style.display = "none";
+        }
+        
 
 
 }

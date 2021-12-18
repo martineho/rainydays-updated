@@ -188,6 +188,9 @@ a.nav-link:hover {
   right: 20px;
   top: 10px;
 }
+.nav-search .close:hover {
+  background-color: #dfdfdf6c;
+}
 
 .breadcrumbs {
   padding: 2% 10% 0 10%;
