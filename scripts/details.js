@@ -93,3 +93,9 @@ async function fetchProduct() {
 
 }
 fetchProduct();
+
+const hiddenSpecs = document.querySelector(".hidden-specs");
+
+document.getElementById("open-specs").onclick = function () {
+    hiddenSpecs.style.display = "block";
+}

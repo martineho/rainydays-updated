@@ -5,9 +5,10 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rainydays - Durable outwear for any adventure!</title>
-  <meta name="description" content="Consciously made rain jackets that make you look and feel good.">
-  <link rel="stylesheet" href="css/style.css" />
+  <title>Rainydays - Shop durable and consciously made jackets.</title>
+  <meta name="description" content="Shop our light, fast and durable items for your next adventure.">
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/shop.css"/>
 </head>
 
 <body>
@@ -20,10 +21,10 @@
 
       <ul class="nav-menu">
         <li class="nav-item">
-          <a href="#" class="nav-link active">Home</a>
+          <a href="index.html" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
-          <a href="shop.html" class="nav-link">Shop</a>
+          <a href="shop.html" class="nav-link active">Shop</a>
         </li>
         <li class="nav-item">
           <a href="stories.html" class="nav-link">Stories</a>
@@ -74,58 +75,83 @@
   <main>
 
     <div class="herotop">
-      <h1>Get ready for the mountains</h1>
-      <a class="cta" href="shop.html">Explore</a>
+      <h1>Shop All</h1>
     </div>
 
-    <section class="new-arrivals">
-      <h2>New arrivals</h2>
-      <div class="products-container">
-      </div>
-    </section>
+    <section class="shop-container">
 
-    <section class="featured-section">
-      <div class="featured-img"></div>
-      <div class="featured-info">
-        <div>
-          <h3>Are you an adventure seeker? </h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. </p>
-        </div>
-        <a href="#">Read more and apply</a>
-      </div>
-    </section>
+      <div class="filter">
 
-    <section class="latest-news">
-      <h2>Latest stories</h2>
-      <div class="posts-container">
+        <button id="toggle" class="category-toggle">Filters</button>
 
-        <div class="post">
-          <button class="post-img" id="img3"></button>
-          <div class="post-description">
-            <div class="date">October 5, 2020</div>
-            <div class="title">The most magical views in Lofoten</div>
+          <div id="filter-container" class="filter-container">
+
+            <div>
+            <button class="accordion">Categories</button>
+              <div class="panel">
+                <form>
+                  <label class="checkmark">Outdoor activities
+                    <input type="checkbox" name="optradio">
+                  </label>
+                  <label class="checkmark">Mountaineering
+                    <input type="checkbox" name="optradio">
+                  </label>
+                  <label class="checkmark">Ski touring
+                    <input type="checkbox" name="optradio">
+                  </label>
+                  <label class="checkmark">Trekking
+                      <input type="checkbox" name="optradio">
+                    </label>
+                </form>
+              </div>
+            </div>
+
+            <div>
+              <button class="accordion">Price</button>
+                <div class="panel">
+                  <form>
+                    <label class="checkmark">High - Low
+                      <input type="checkbox" name="optradio">
+                    </label>
+                    <label class="checkmark">Low - High
+                      <input type="checkbox" name="optradio">
+                    </label>
+                  </form>
+                </div>
+              </div>
+
+              <div>
+                <button class="accordion">Colors</button>
+                <div class="panel">
+                  <form>
+                    <label class="checkmark">Black/Grey
+                      <input type="checkbox" name="optradio">
+                    </label>
+                    <label class="checkmark">Green
+                      <input type="checkbox" name="optradio">
+                    </label>
+                    <label class="checkmark">Yellow
+                      <input type="checkbox" name="optradio">
+                    </label>
+                    <label class="checkmark">Red
+                        <input type="checkbox" name="optradio">
+                      </label>
+                      <label class="checkmark">Blue
+                        <input type="checkbox" name="optradio">
+                      </label>
+                  </form>
+                </div>
+              </div>
+
+              </div> 
           </div>
-        </div>
 
-        <div class="post">
-          <button class="post-img" id="img2"></button>
-          <div class="post-description">
-            <div class="date">October 15, 2020</div>
-            <div class="title">What to pack for camping in the fall</div>
-          </div>
-        </div>
-
-
-        <div class="post">
-          <button class="post-img" id="img1"></button>
-          <div class="post-description">
-            <div class="date">November 5, 2020</div>
-            <div class="title">Hunting northern lights in the far north of Norway</div>
-          </div>
-        </div>
-
+      <div class="products">
+        <div class="products-container"></div>
       </div>
+
+
+
     </section>
 
   </main>
@@ -169,7 +195,8 @@
 
 
   <script src="scripts/navbar.js"></script>
-  <script src="scripts/new-products.js"></script>
+  <script src="scripts/shop.js"></script>
+  <script src="scripts/accordion.js"></script>
 </body>
 
 </html>

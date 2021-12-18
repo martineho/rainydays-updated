@@ -136,11 +136,11 @@ a.nav-link:hover {
 }
 .nav-search button {
   border: none;
-  background-color: #c1b3f9;
+  background-color: black;
   padding: 8px 16px;
   outline: none;
   border-radius: 50px;
-  color: black;
+  color: white;
   font-weight: 600;
   margin-left: -82px;
   margin-top: 6px;
@@ -148,7 +148,7 @@ a.nav-link:hover {
   position: absolute;
 }
 .nav-search button:hover {
-  background-color: #c1b3f995;
+  background-color: rgba(0, 0, 0, 0.808);
   transition: 0.3s ease;
 }
 .nav-search .tags {
@@ -187,6 +187,30 @@ a.nav-link:hover {
   position: absolute;
   right: 20px;
   top: 10px;
+}
+
+.breadcrumbs {
+  padding: 2% 10% 0 10%;
+}
+.breadcrumbs ul {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+.breadcrumbs a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+.breadcrumbs a:after {
+  content: ">";
+  padding: 0 2px;
+}
+.breadcrumbs a.active {
+  font-weight: 500;
+}
+.breadcrumbs a.active:after {
+  content: none;
 }
 
 .herotop {
@@ -343,10 +367,10 @@ button.product-img {
   border-radius: 10px 0px 0px 10px;
 }
 .featured-info {
-  background-color: #daff95;
+  background-color: rgb(255, 131, 93);
   width: 50%;
   height: 70vh;
-  padding: 13% 8%;
+  padding: 10% 8%;
   border-radius: 0px 10px 10px 0px;
 }
 .featured-info div {
@@ -354,12 +378,13 @@ button.product-img {
   font-weight: 500;
 }
 .featured-section a {
-  background-color: #c1b3f9;
-  padding: 10px 20px;
+  background-color: black;
+  padding: 12px 25px;
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
   border-radius: 50px;
+  color: white;
 }
 
 .posts-container {
@@ -465,7 +490,7 @@ h5 {
   margin-bottom: 10px;
 }
 .footer-section button {
-  background-color: #c1b3f9;
+  background-color: white;
   color: black;
   padding: 8px 16px;
   border-radius: 50px;

@@ -1,26 +1,3 @@
-.breadcrumbs {
-  padding: 2% 10% 0 10%;
-}
-.breadcrumbs ul {
-  list-style: none;
-  display: flex;
-  gap: 8px;
-}
-.breadcrumbs a {
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 700;
-}
-.breadcrumbs a:after {
-  content: ">";
-  padding: 0 2px;
-}
-.breadcrumbs a.active {
-  font-weight: 500;
-}
-.breadcrumbs a.active:after {
-  content: none;
-}
 .product-details {
   padding: 2% 10%;
 }
@@ -29,7 +6,7 @@
   flex-wrap: wrap;
   gap: 30px;
   justify-content: flex-start;
-  height: 80vh;
+  height: 70vh;
 }
 .product-img {
   background-color: blue;
@@ -48,7 +25,7 @@
 }
 h1 {
   color: black;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   padding: 20px 0;
 }
 .price {
@@ -177,4 +154,169 @@ h1 {
 .cta-checkout:hover {
   scale: 1.05;
   transition: 0.3s ease;
+}
+.product-images {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10%;
+}
+#imageOne {
+  background-image: url(../assets/kal-visuals-2_WEB.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 70vh;
+  width: 100%;
+  border-radius: 10px;
+}
+#imageTwo {
+  background-image: url(../assets/kal-visuals-1.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100vh;
+  width: 50%;
+}
+.product-specs {
+  padding: 8% 20% 10% 20%;
+}
+.product-specs h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+h2#features {
+  margin-bottom: 20px;
+  line-height: 2.5rem;
+  max-width: 600px;
+  color: rgb(14, 14, 14);
+}
+.features {
+  padding: 20px 0;
+  max-width: 700px;
+}
+.features-list {
+  margin: 0 20px;
+  padding: 0;
+}
+.features-list li {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.features p {
+  padding: 0;
+  font-size: 1rem;
+}
+.graph {
+  width: 100%;
+}
+.score-label {
+  font-size: 1rem;
+  margin: 10px 0px;
+  font-weight: 600;
+}
+.score-label span {
+  float: right;
+}
+.score-graph {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  border-radius: 20px;
+}
+.score-top {
+  background-color: black;
+  padding: 5px;
+  border-radius: 20px;
+  position: relative;
+  margin-top: -10px;
+}
+.ten {
+  width: 100%;
+}
+.nine {
+  width: 90%;
+}
+.seven {
+  width: 70%;
+}
+
+.reviews {
+  background-color: #ebe8df;
+  height: fit-content;
+  padding: 10%;
+}
+
+.review {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 5% 0;
+  justify-content: space-between;
+}
+.review h4 {
+  color: black;
+}
+.rating {
+  width: 10%;
+}
+.user {
+  width: 40%;
+  max-width: 500px;
+}
+.review .user p {
+  font-size: 1.1rem;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.links a {
+  color: white;
+  font-size: 1rem;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  background-color: black;
+  border: solid 3px black;
+  height: fit-content;
+}
+
+#leaf {
+  width: 40px;
+  margin-bottom: 15px;
+}
+
+#write {
+  background-color: transparent;
+  color: black;
+  border: solid 3px black;
+  padding: 12px 25px;
+}
+
+#open-specs {
+  color: white;
+  font-size: 1rem;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  background-color: black;
+  border: solid 3px black;
+  height: fit-content;
+  margin-top: 5%;
+}
+#open-specs:hover {
+  scale: 1.03;
+  transition: 0.3s ease;
+}
+
+.hidden-specs {
+  padding: 50px 0;
+  display: none;
 }

@@ -1,0 +1,137 @@
+a.nav-link.active {
+  background-color: #edf2e2;
+}
+
+.herotop {
+  background-image: url(../assets/kal-visuals-2_WEB.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 80vh;
+  padding: 20% 7% 0 7%;
+  margin-top: -120px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(255, 95, 55);
+  font-size: 4.2rem;
+}
+h1:hover {
+  color: greenyellow;
+  transition: 0.3 ease;
+}
+.shop-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 5% 13% 5% 7%;
+}
+
+.filter {
+  width: 23%;
+}
+
+.products {
+  width: 73%;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.filter-container {
+  margin-top: 25px;
+}
+.filter-container .accordion {
+  display: block;
+  padding: 15px 15px;
+  text-align: left;
+  width: 100%;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(243, 243, 243);
+}
+.filter-container .accordion:hover {
+  background-color: rgb(243, 243, 243);
+  border-radius: 50px;
+}
+
+.accordion:after {
+  font-size: 1.1rem;
+  content: "\2303";
+  transform: rotate(180deg);
+  float: right;
+  margin-top: -4px;
+}
+
+.panel {
+  padding: 0 25px;
+  display: none;
+  overflow: hidden;
+  transition: 0.4s ease;
+}
+
+.panel input {
+  float: right;
+}
+
+.category-toggle {
+  display: none;
+}
+
+@media (max-width: 810px) {
+  .herotop {
+    padding: 45% 10%;
+    height: 60vh;
+  }
+  .shop-container {
+    padding: 5% 10%;
+  }
+  .products {
+    width: 100%;
+  }
+  .products-container {
+    justify-content: space-between;
+    row-gap: 30px;
+    padding: 10px 40px;
+  }
+  .filter {
+    width: 100%;
+  }
+  .filter-container {
+    display: none;
+    margin: 20px 40px;
+  }
+  .category-toggle {
+    display: block;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: black;
+    border: solid 3px black;
+    height: fit-content;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 414px) {
+  .category-toggle {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .filter-container {
+    display: none;
+    margin: 0;
+  }
+}
