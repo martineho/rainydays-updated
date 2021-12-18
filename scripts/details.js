@@ -21,7 +21,7 @@ async function fetchProduct() {
     document.title = `Rainydays - ${product.name}`;
     title.innerHTML = `Rainydays - ${product.name}`;
 
-    modalContent.innerHTML += 
+    modalContent.innerHTML +=
         `<button id="closeModal" class="cta-close">Shop more ></button>
         <img alt="" src="${product.images[0].src}">
             <h4 class="title">${product.name}</h4>
@@ -35,8 +35,8 @@ async function fetchProduct() {
                                 </ul>`;
 
 
-    container.innerHTML += 
-                            ` <div class="container">
+    container.innerHTML +=
+        ` <div class="container">
                                     <div class="product-img"><img alt="${product.images[0].alt}" src="${product.images[0].src}"></div>
                                     <div class="product-information">
                                         <h1>${product.name}</h1>
@@ -68,33 +68,33 @@ async function fetchProduct() {
                         
                             `;
 
-        const addBtn = document.querySelector(".add-button");
+    const addBtn = document.querySelector(".add-button");
 
-        document.getElementById("s").onclick = function () {
-            addBtn.style.backgroundColor = "rgb(9, 192, 106)";
-        }
-        document.getElementById("m").onclick = function () {
-            addBtn.style.backgroundColor = "rgb(9, 192, 106)";
-        }
-        document.getElementById("l").onclick = function () {
-            addBtn.style.backgroundColor = "rgb(9, 192, 106)";
-        }
-        document.getElementById("xl").onclick = function () {
-            addBtn.style.backgroundColor = "rgb(9, 192, 106)";
-        }
+    document.getElementById("s").onclick = function () {
+        addBtn.style.backgroundColor = "rgb(9, 192, 106)";
+    }
+    document.getElementById("m").onclick = function () {
+        addBtn.style.backgroundColor = "rgb(9, 192, 106)";
+    }
+    document.getElementById("l").onclick = function () {
+        addBtn.style.backgroundColor = "rgb(9, 192, 106)";
+    }
+    document.getElementById("xl").onclick = function () {
+        addBtn.style.backgroundColor = "rgb(9, 192, 106)";
+    }
 
-        const signifier = document.querySelector(".added-signifier")
-        const modal = document.querySelector(".added-to-bag-modal");
+    const signifier = document.querySelector(".added-signifier")
+    const modal = document.querySelector(".added-to-bag-modal");
 
-        addBtn.onclick = function () {
-            modal.style.display = "flex";
-            signifier.style.display = "block";
-        }
+    addBtn.onclick = function () {
+        modal.style.display = "flex";
+        signifier.style.display = "block";
+    }
 
-        document.getElementById("closeModal").onclick = function () {
-            modal.style.display = "none";
-        }
-        
+    document.getElementById("closeModal").onclick = function () {
+        modal.style.display = "none";
+    }
+
 
 
 }
