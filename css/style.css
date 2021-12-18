@@ -296,9 +296,10 @@ button.product-img {
   font-size: 14px;
 }
 .colors {
-  position: absolute;
   z-index: 500;
   margin: 10px;
+  position: sticky;
+  margin-bottom: -75px;
 }
 #color1 {
   background-color: #da4835;
