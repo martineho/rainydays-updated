@@ -134,4 +134,7 @@ h1:hover {
     display: none;
     margin: 0;
   }
+  a.nav-link.active {
+    background-color: transparent;
+  }
 }

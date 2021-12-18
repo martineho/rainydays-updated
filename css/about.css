@@ -49,3 +49,9 @@ h1 {
 .conscious-info p {
   font-size: 1rem;
 }
+
+@media (max-width: 414px) {
+  a.nav-link.active {
+    background-color: transparent;
+  }
+}

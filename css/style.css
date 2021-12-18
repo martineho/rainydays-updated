@@ -561,11 +561,11 @@ h5 {
   }
   .new-arrivals,
   .latest-news {
-    padding: 5% 3%;
+    padding: 10% 5%;
   }
   .featured-img,
   .featured-info {
-    height: 42vh;
+    height: 50vh;
   }
   .help-tag {
     right: 0%;
@@ -641,5 +641,8 @@ h5 {
   }
   h1 {
     font-size: 2.5rem;
+  }
+  .featured-section {
+    display: none;
   }
 }
