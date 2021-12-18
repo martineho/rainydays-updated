@@ -6,7 +6,7 @@ a.nav-link.active {
   background-image: url(../assets/kal-visuals-2_WEB.jpg);
   background-size: cover;
   background-position: 50%;
-  height: 80vh;
+  height: 70vh;
   padding: 20% 7% 0 7%;
   margin-top: -120px;
   text-align: center;
@@ -25,7 +25,7 @@ h1:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
-  padding: 5% 13% 5% 7%;
+  padding: 3% 13% 5% 7%;
 }
 
 .products {
